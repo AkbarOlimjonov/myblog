@@ -1,9 +1,28 @@
-<link rel='stylesheet' href='/stylesheets/navbar.css' />
+<link rel="stylesheet" href="/stylesheets/navbar.css" />
 
-<nav class="container">
-    <div class="flex site-menu">
-        <div class="site-menu-logo">
-            
-        </div>
+<div class="wrapper">
+  <nav class="container navbar">
+    <div class="flex site-menu align-center">
+      <div class="site-menu-logo fmonospace bold">
+        <a href="/" class="logo-text">ITBlog</a>
+      </div>
+      <div class="site-menu-navigation-left">
+        <ul class="flex justify-between align-center">
+          <li><a href="/mypage" class="fopensans">Mening lentam</a></li>
+          <li><a href="/tests" class="fopensans">Testlar</a></li>
+          <li><a href="/vacancies/" class="fopensans">E'lonlar</a></li>
+          <li><a href="/events" class="fopensans">Tadbirlar</a></li>
+        </ul>
+      </div>
+
+      <div class="site-menu-navigation-right">
+        <ul class="flex justify-between align-center">
+            <i class="fa-solid fa-circle-user user-icon"></i>
+            <i class="fa-solid fa-moon ficon"></i>
+            <img class="search-btn" src="/svg/search.svg" alt="">
+            <li><input type="text" class="form-control" placeholder="Search.."></li>
+        </ul>
+      </div>
     </div>
-</nav>
+  </nav>
+</div>

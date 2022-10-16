@@ -1,0 +1,44 @@
+.items{
+    gap: 0 21px;
+
+}
+
+.categories{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item{
+    width: 80px;
+    height: 30px;
+    background-color: transparent;
+    color: #a6aba6;
+    border: 1px solid #a6aba6;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.item:hover{
+    color: #0257c580;
+    border: 1px solid #0257c580;
+}
+
+.tg-btn{
+    width: 450px;
+    background-color: rgba(15, 105, 231, 0.749);
+    border: none;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    border-radius: 5px;
+    justify-content: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+.tg-img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}

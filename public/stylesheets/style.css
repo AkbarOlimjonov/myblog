@@ -5,6 +5,8 @@
     text-decoration: none;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
 .container{
     width: 100%;
     max-width: 1120px;
@@ -37,5 +39,17 @@
 
 .justify-evenly{
     justify-content: space-evenly ;
+}
+
+.fmonospace{
+    font-family:monospace;
+}
+
+.fopensans{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bold{
+    font-weight: 700;
 }
 
