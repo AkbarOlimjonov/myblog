@@ -1,0 +1,30 @@
+{
+  "name": "myblog",
+  "version": "1.0.0",
+  "description": "MyBlog website",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AkbarOlimjonov/myblog.git"
+  },
+  "keywords": [
+    "myblog"
+  ],
+  "author": "Akbarshox",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AkbarOlimjonov/myblog/issues"
+  },
+  "homepage": "https://github.com/AkbarOlimjonov/myblog#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "joi": "^17.6.3",
+    "mongoose": "^6.6.5"
+  }
+}
