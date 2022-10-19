@@ -13,6 +13,14 @@
     margin: auto;
 }
 
+.pos-absolute{
+    position: absolute;
+}
+
+.pos-relative{
+    position: relative;
+}
+
 .flex{
     display: flex;
 }

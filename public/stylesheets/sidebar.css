@@ -1,0 +1,32 @@
+.categories-box{
+    width: 450px;
+    top: 0;
+    right: -89px;
+}
+
+.items{
+    gap: 20px 21px;
+    flex-wrap: wrap;
+    padding: 0px 0px 0 70px;
+}
+
+.categories{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item{
+    width: 80px;
+    height: 30px;
+    background-color: transparent;
+    color: #a6aba6;
+    border: 1px solid #a6aba6;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.item:hover{
+    color: #0257c580;
+    border: 1px solid #0257c580;
+}

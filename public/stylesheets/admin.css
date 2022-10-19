@@ -1,0 +1,47 @@
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.validate{
+    width: 500px;
+}
+
+textarea{
+    height: 400px;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    resize: none;
+}
+
+label{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+.validate{
+    margin-bottom: 50px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.browser-default{
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn{
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.input-field{
+    display: flex;
+    flex-direction: column;
+}

@@ -11,6 +11,7 @@ require('dotenv').config()
 const app = express();
 
 const indexRouter = require('./routes/index');
+const adminRouter = require('./routes/admin');
 
 require('./helper/db')(process.env.MONGO_URI)
 
@@ -37,6 +38,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 //Routes
 app.use('/', indexRouter);
+app.use('/admin', adminRouter);
 
 
 
