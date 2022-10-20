@@ -2,18 +2,18 @@
 <section class="articls">
   <div class="container">
     <div class="news-box">
-      <div class="article">
+      {{#each articles}}
+        <div class="article">
         <div class="title flex align-center">
-          <a href="#" class="title-text">JavaScript vs Python</h1>
-          <a class="category-name" href="#">JavaScript</a>
+          <a href="/" class="title-text">{{name}}</h1>
+          <a class="category-name" href="#"></a>
         </div>
         <div class="article-paragraf">
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia
-          aspernatur asperiores ipsum odio? Amet illum vero, optio perspiciatis
-          est modi cum adipisci doloribus, eaque consectetur voluptatem placeat
-          numquam quo ipsam.</p>
+          <p>{{paragraf}}</p>
         </div>
       </div>
+      {{/each}}
+      
     </div>
   </div>
 </section>
